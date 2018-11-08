@@ -1,0 +1,20 @@
+{
+    "GOLDILOCKS": {
+        "DSN": "goldilocks",
+		"UID": "nocs1",
+		"PWD": "nocs1",
+		"ARRAY": 1,
+		"AUTOCOMMIT": "OFF",
+		"IS_DIRECT_EXECUTE":"YES",
+		"COMMIT_INTERVAL": 1,
+	},
+	"TIMER": {
+		"UNIT"    : "MILI",
+		"BEGIN"   : 1,
+		"INTERVAL": 1,
+		"COUNT"   : 20
+	},
+	"SQL": "call proc1",
+	"REPEAT": 1000
+	
+}

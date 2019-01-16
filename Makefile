@@ -25,7 +25,7 @@ SHARED_DA_LIB = -lsundbas
 SHARED_CS_LIB = -lsundbcs-ul64
 endif
 
-INC=-I. -I$(DB_HOME)/include -I$(JSON)/include
+INC=-I. -I$(DB_HOME)/include -I$(JSON)
 LFLAGS = -L$(DB_HOME)/lib
 
 OBJECTS = main.o log.o property.o odbc.o latency.o timer.o
